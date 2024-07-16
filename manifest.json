@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Simple Text Scraper",
+  "version": "0.1",
+  "author": "kram",
+  "description": "Scrape text from a single webpage",
+  "permissions": [
+    "downloads",
+    "activeTab",
+    "scripting"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "img/icon16.png",
+      "48": "img/icon48.png",
+      "128": "img/icon128.png" }
+  },
+  "icons": {
+    "16": "img/icon16.png",
+      "48": "img/icon48.png",
+      "128": "img/icon128.png"
+  }
+}

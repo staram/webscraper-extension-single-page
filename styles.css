@@ -1,0 +1,33 @@
+body {
+    width: 500px; /* Set width */
+    height: 400px; /* Set height */
+  }
+
+.menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-list {
+    list-style: none;
+}
+
+input {
+    width: 420px;
+    margin-bottom: 10px;
+}
+
+ul {
+    padding-left: 0;
+}
+
+textarea {
+    width: 450px;
+    height: 200px;
+    resize: none;
+}
+
+button {
+    width: 150px;
+    margin-bottom: 10px;
+}
